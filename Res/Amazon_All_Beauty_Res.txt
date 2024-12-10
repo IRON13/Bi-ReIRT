@@ -1,0 +1,102 @@
+Model: Random
+best_valid_score: 0.0
+valid_score_bigger: True
+best_valid_result: OrderedDict([('recall@10', 0.0001), ('mrr@10', 0.0), ('ndcg@10', 0.0001), ('hit@10', 0.0001), ('precision@10', 0.0)])
+test_result: OrderedDict([('recall@10', 0.0002), ('mrr@10', 0.0), ('ndcg@10', 0.0001), ('hit@10', 0.0002), ('precision@10', 0.0)])
+
+Model: Pop
+best_valid_score: 0.0033
+valid_score_bigger: True
+best_valid_result: OrderedDict([('recall@10', 0.0085), ('mrr@10', 0.0033), ('ndcg@10', 0.0045), ('hit@10', 0.0085), ('precision@10', 0.0008)])
+test_result: OrderedDict([('recall@10', 0.0131), ('mrr@10', 0.0052), ('ndcg@10', 0.007), ('hit@10', 0.0131), ('precision@10', 0.0013)])
+
+Model: ItemKNN
+best_valid_score: 0.0027
+valid_score_bigger: True
+best_valid_result: OrderedDict([('recall@10', 0.0057), ('mrr@10', 0.0027), ('ndcg@10', 0.0034), ('hit@10', 0.006), ('precision@10', 0.0007)])
+test_result: OrderedDict([('recall@10', 0.004), ('mrr@10', 0.0015), ('ndcg@10', 0.0021), ('hit@10', 0.0042), ('precision@10', 0.0004)])
+
+Model: BPR
+best_valid_score: 0.0015
+valid_score_bigger: True
+best_valid_result: OrderedDict([('recall@10', 0.0033), ('mrr@10', 0.0015), ('ndcg@10', 0.002), ('hit@10', 0.0033), ('precision@10', 0.0003)])
+test_result: OrderedDict([('recall@10', 0.0043), ('mrr@10', 0.0016), ('ndcg@10', 0.0022), ('hit@10', 0.0043), ('precision@10', 0.0004)])
+
+Model: LINE
+best_valid_score: 0.0013
+valid_score_bigger: True
+best_valid_result: OrderedDict([('recall@10', 0.0043), ('mrr@10', 0.0013), ('ndcg@10', 0.002), ('hit@10', 0.0043), ('precision@10', 0.0004)])
+test_result: OrderedDict([('recall@10', 0.0052), ('mrr@10', 0.0018), ('ndcg@10', 0.0026), ('hit@10', 0.0052), ('precision@10', 0.0005)])
+
+Model: DMF
+best_valid_score: 0.0014
+valid_score_bigger: True
+best_valid_result: OrderedDict([('recall@10', 0.0049), ('mrr@10', 0.0014), ('ndcg@10', 0.0022), ('hit@10', 0.0049), ('precision@10', 0.0005)])
+test_result: OrderedDict([('recall@10', 0.0079), ('mrr@10', 0.0022), ('ndcg@10', 0.0035), ('hit@10', 0.0079), ('precision@10', 0.0008)])
+
+Model: MultiVAE
+best_valid_score: 0.0037
+valid_score_bigger: True
+best_valid_result: OrderedDict([('recall@10', 0.0073), ('mrr@10', 0.0037), ('ndcg@10', 0.0044), ('hit@10', 0.0076), ('precision@10', 0.0008)])
+test_result: OrderedDict([('recall@10', 0.0054), ('mrr@10', 0.0024), ('ndcg@10', 0.0031), ('hit@10', 0.0054), ('precision@10', 0.0005)])
+
+Model: NCEPLRec
+best_valid_score: 0.0024
+valid_score_bigger: True
+best_valid_result: OrderedDict([('recall@10', 0.0051), ('mrr@10', 0.0024), ('ndcg@10', 0.0029), ('hit@10', 0.0055), ('precision@10', 0.0006)])
+test_result: OrderedDict([('recall@10', 0.0032), ('mrr@10', 0.0016), ('ndcg@10', 0.002), ('hit@10', 0.0032), ('precision@10', 0.0003)])
+
+Model: ENMF
+best_valid_score: 0.0026
+valid_score_bigger: True
+best_valid_result: OrderedDict([('recall@10', 0.0066), ('mrr@10', 0.0026), ('ndcg@10', 0.0035), ('hit@10', 0.0066), ('precision@10', 0.0007)])
+test_result: OrderedDict([('recall@10', 0.008), ('mrr@10', 0.0029), ('ndcg@10', 0.004), ('hit@10', 0.008), ('precision@10', 0.0008)])
+
+Model: SimpleX
+best_valid_score: 0.0037
+valid_score_bigger: True
+best_valid_result: OrderedDict([('recall@10', 0.0079), ('mrr@10', 0.0037), ('ndcg@10', 0.0045), ('hit@10', 0.0091), ('precision@10', 0.0009)])
+test_result: OrderedDict([('recall@10', 0.0044), ('mrr@10', 0.0018), ('ndcg@10', 0.0024), ('hit@10', 0.0045), ('precision@10', 0.0005)])
+
+Model: SGL
+best_valid_score: 0.0022
+valid_score_bigger: True
+best_valid_result: OrderedDict([('recall@10', 0.0052), ('mrr@10', 0.0022), ('ndcg@10', 0.0029), ('hit@10', 0.0056), ('precision@10', 0.0006)])
+test_result: OrderedDict([('recall@10', 0.0063), ('mrr@10', 0.0023), ('ndcg@10', 0.0032), ('hit@10', 0.0063), ('precision@10', 0.0006)])
+
+Model: CDAE
+best_valid_score: 0.0034
+valid_score_bigger: True
+best_valid_result: OrderedDict([('recall@10', 0.0097), ('mrr@10', 0.0034), ('ndcg@10', 0.0048), ('hit@10', 0.0099), ('precision@10', 0.001)])
+test_result: OrderedDict([('recall@10', 0.0119), ('mrr@10', 0.0047), ('ndcg@10', 0.0064), ('hit@10', 0.012), ('precision@10', 0.0012)])
+
+Model: MultiDAE
+best_valid_score: 0.0044
+valid_score_bigger: True
+best_valid_result: OrderedDict([('recall@10', 0.0077), ('mrr@10', 0.0044), ('ndcg@10', 0.0049), ('hit@10', 0.0086), ('precision@10', 0.0009)])
+test_result: OrderedDict([('recall@10', 0.0056), ('mrr@10', 0.0027), ('ndcg@10', 0.0034), ('hit@10', 0.0057), ('precision@10', 0.0006)])
+
+Model: RaCT
+best_valid_score: -inf
+valid_score_bigger: True
+best_valid_result: None
+test_result: OrderedDict([('recall@10', 0.0129), ('mrr@10', 0.0059), ('ndcg@10', 0.0075), ('hit@10', 0.013), ('precision@10', 0.0013)])
+
+Model: RecVAE
+best_valid_score: 0.0034
+valid_score_bigger: True
+best_valid_result: OrderedDict([('recall@10', 0.0071), ('mrr@10', 0.0034), ('ndcg@10', 0.0043), ('hit@10', 0.0075), ('precision@10', 0.0008)])
+test_result: OrderedDict([('recall@10', 0.0045), ('mrr@10', 0.0018), ('ndcg@10', 0.0024), ('hit@10', 0.0045), ('precision@10', 0.0005)])
+
+Model: DiffRec
+best_valid_score: 0.0032
+valid_score_bigger: True
+best_valid_result: OrderedDict([('recall@10', 0.0071), ('mrr@10', 0.0032), ('ndcg@10', 0.0041), ('hit@10', 0.0074), ('precision@10', 0.0007)])
+test_result: OrderedDict([('recall@10', 0.0067), ('mrr@10', 0.0023), ('ndcg@10', 0.0033), ('hit@10', 0.0067), ('precision@10', 0.0007)])
+
+Model: NNCF
+best_valid_score: 0.0005
+valid_score_bigger: True
+best_valid_result: OrderedDict([('recall@10', 0.0017), ('mrr@10', 0.0005), ('ndcg@10', 0.0008), ('hit@10', 0.0017), ('precision@10', 0.0002)])
+test_result: OrderedDict([('recall@10', 0.0022), ('mrr@10', 0.0007), ('ndcg@10', 0.001), ('hit@10', 0.0022), ('precision@10', 0.0002)])
+
